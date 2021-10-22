@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <
+    <link rel="icon" href="~/Content/images-2/favicon.ico" type="image/x-icon" />
+    @Styles.Render("~/Content/css-2/bootstrap/bootstrap.min.css")
+    @Styles.Render("~/Content/css-2/font-awesome/all.css")
+    @Styles.Render("~/Content/css-2/owl-carousel/owl.carousel.min.css")
+
+    @* @Scripts.Render("~/bundles/modernizr")*@
+
+    <link href="~/Content/css-2/style.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/css-2/media.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+  @*  <ul class="nav navbar-nav" style="float:right !important">
+        @if (Session["emailSS"] != null)
+        {
+            <li><p style="color:aliceblue; margin-top:15px;">Hello @Session["emailSS"]</p></li>
+            <li>@Html.ActionLink("Logout", "Logout", "Home")</li>
+        }
+        else
+        {
+            <li>@Html.ActionLink("Signup", "Signup", "Home")</li>
+            <li>@Html.ActionLink("Login", "Login", "Home")</li>
+        }
+    </ul>*@
+
+    <div>
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
+
+        </div>
+    </div>
+
+    <script src="~/Content/js-2/jquery.min.js"></script>
+    <script src="~/Content/js-2/bootstrap/popper.min.js"></script>
+    <script src="~/Content/js-2/bootstrap/bootstrap.min.js"></script>
+    <script src="~/Content/js-2/custom.js"></script>
+    <script src="~/Content/js-2/owl-carousel/owl.carousel.js"></script>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,188 @@
+﻿@model E_Commerce.Models.customer_reg
+
+@{
+    ViewBag.Title = "Login";
+}
+
+
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+
+
+
+    @* <div class="form-group">
+            @Html.LabelFor(model => model.email, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.email, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.password, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.password, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.password, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    *@
+
+    <div id="main-container" class="main-container">
+        <div id="inner-container" class="inner-container">
+
+            <div id="middle">
+                <section class="common-section collegebol-predictor-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h1 class="cmn-heading">Welcome to Tathya Infotech, Please Sign In!</h1> <br><br>
+
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="login-cnt">
+                                    <div class="login-heading">
+                                        <h2>
+                                            <img src="~/Content/images-2/login-icon.png"> Login <span>
+                                                If you alreday registered with
+                                                us. Please Login here.
+                                            </span>
+                                        </h2>
+                                    </div>
+
+                                    <div class="login-form-area">
+                                        <div class="form-row">
+                                            <div class="form-label">
+                                                @Html.LabelFor(model => model.email, htmlAttributes: new { @class = "control-label col-md-2" })
+                                            </div>
+                                            <div class="form-cnt-area">
+                                              
+                                                @Html.EditorFor(model => model.email, new { htmlAttributes = new { @class = "form-control" } })
+                                                @Html.ValidationMessageFor(model => model.email, "", new { @class = "text-danger" })
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+
+                                        <div class="form-row">
+                                            <div class="form-label">
+                                                @Html.LabelFor(model => model.password, htmlAttributes: new { @class = "control-label col-md-2" })
+                                            </div>
+                                            <div class="form-cnt-area">
+                                                
+                                                @Html.EditorFor(model => model.password, new { htmlAttributes = new { @class = "form-control" } })
+                                                @Html.ValidationMessageFor(model => model.password, "", new { @class = "text-danger" })
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+
+
+                                        <div class="form-row">
+                                            <div class="form-label"></div>
+                                            <div class="form-cnt-area">
+                                                <label class="custom-checkbox">
+                                                    <input type="checkbox">
+                                                    <span class="checkmark"></span> Remember Me
+                                                </label>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+
+                                        <div class="form-row">
+                                            <div class="form-label"></div>
+
+                                            <div class="form-cnt-area">
+                                                <input type="submit" value="Login" class="cmn-btn" />
+                                                @*<a href="#" class="cmn-btn">Login</a>*@
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <br>
+                                        <div class="form-row">
+                                            <div class="form-label"></div>
+                                            <div class="form-cnt-area">
+                                                <a href="#" class="cmn-link">
+                                                    <strong>
+                                                        Forgot your
+                                                        password?
+                                                    </strong>
+                                                </a>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="signup-cnt">
+                                    <div class="login-heading">
+                                        <h2>
+                                            <img src="~/Content/images-2/singup-icon.png"> Sign Up <span>
+                                                New User? Join the
+                                                Community!
+                                            </span>
+                                        </h2>
+                                    </div>
+
+                                    <div class="register-cnt-area">
+                                        <p>Signup & get instant updates on special offers & latest discounts.</p>
+                                        <p>Avail welcome perks worth up to 30% discount on your first purchase.</p>
+                                        <p>Refer a friend & get surprise rewards.</p>
+                                        @*  @Html.ActionLink("Back to List", "Index")*@
+                                        @*<div class="text-center"><a @Html.ActionLink("Register", "Signup")></a></div>*@
+                                        <div class="text-center">
+                                            <div>
+                                                <div class="cmn-btn">
+                                                    @Html.ActionLink("Register", "Signup")
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+@*
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Login" class="btn btn-default" />
+        </div>
+    </div>*@
+
+}
+
+@*<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>*@
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

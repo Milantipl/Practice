@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="tipltraineeModelStoreContainer" CdmEntityContainer="SampleDBEntities">
+    <EntitySetMapping Name="Cities">
+      <EntityTypeMapping TypeName="tipltraineeModel.City">
+        <MappingFragment StoreEntitySet="City">
+          <ScalarProperty Name="Cityid" ColumnName="Cityid" />
+          <ScalarProperty Name="Cityname" ColumnName="Cityname" />
+          <ScalarProperty Name="Sid" ColumnName="Sid" />
+          <ScalarProperty Name="Pincode" ColumnName="Pincode" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Countries">
+      <EntityTypeMapping TypeName="tipltraineeModel.Country">
+        <MappingFragment StoreEntitySet="Country">
+          <ScalarProperty Name="Cid" ColumnName="Cid" />
+          <ScalarProperty Name="Cname" ColumnName="Cname" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="States">
+      <EntityTypeMapping TypeName="tipltraineeModel.State">
+        <MappingFragment StoreEntitySet="State">
+          <ScalarProperty Name="Sid" ColumnName="Sid" />
+          <ScalarProperty Name="Sname" ColumnName="Sname" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Cid" ColumnName="Cid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

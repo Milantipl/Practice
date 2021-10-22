@@ -1,0 +1,6 @@
+Sever : 101.53.146.129
+DB : tipltrainee
+Username : trainee
+Password : tipl#789
+
+dbmodel = tipltraineeEntities1

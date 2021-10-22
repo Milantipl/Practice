@@ -1,0 +1,120 @@
+﻿@model IEnumerable<E_Commerce.Models.customer_reg>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>This Is Home Page</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<ul class="nav navbar-nav" style="float:right !important">
+    @if (Session["emailSS"] != null)
+    {
+        <li><p style="color:aliceblue; margin-top:15px;">Hello @Session["emailSS"]</p></li>
+        <li>@Html.ActionLink("Logout", "Logout", "Home")</li>
+    }
+    else
+    {
+        <li>@Html.ActionLink("Signup", "Signup", "Home")</li>
+        <li>@Html.ActionLink("Login", "Login", "Home")</li>
+    }
+</ul>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.customer_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.lname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mobile)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.password)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cpassword)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.profile)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.country)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.state)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.city)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsEmailVerified)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ActivationCode)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.customer_id)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.fname)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.lname)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.email)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.mobile)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.password)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.cpassword)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.profile)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.country)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.state)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.city)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.IsEmailVerified)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ActivationCode)
+    </td>
+    @*<td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>*@
+</tr>
+    }
+
+</table>

@@ -1,0 +1,16 @@
+C:\Users\TIPL-User\source\repos\Ex-02\Ex-02\bin\Debug\net5.0\Ex-02.exe
+C:\Users\TIPL-User\source\repos\Ex-02\Ex-02\bin\Debug\net5.0\Ex-02.deps.json
+C:\Users\TIPL-User\source\repos\Ex-02\Ex-02\bin\Debug\net5.0\Ex-02.runtimeconfig.json
+C:\Users\TIPL-User\source\repos\Ex-02\Ex-02\bin\Debug\net5.0\Ex-02.runtimeconfig.dev.json
+C:\Users\TIPL-User\source\repos\Ex-02\Ex-02\bin\Debug\net5.0\Ex-02.dll
+C:\Users\TIPL-User\source\repos\Ex-02\Ex-02\bin\Debug\net5.0\ref\Ex-02.dll
+C:\Users\TIPL-User\source\repos\Ex-02\Ex-02\bin\Debug\net5.0\Ex-02.pdb
+C:\Users\TIPL-User\source\repos\Ex-02\Ex-02\obj\Debug\net5.0\Ex-02.csproj.AssemblyReference.cache
+C:\Users\TIPL-User\source\repos\Ex-02\Ex-02\obj\Debug\net5.0\Ex-02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TIPL-User\source\repos\Ex-02\Ex-02\obj\Debug\net5.0\Ex-02.AssemblyInfoInputs.cache
+C:\Users\TIPL-User\source\repos\Ex-02\Ex-02\obj\Debug\net5.0\Ex-02.AssemblyInfo.cs
+C:\Users\TIPL-User\source\repos\Ex-02\Ex-02\obj\Debug\net5.0\Ex-02.csproj.CoreCompileInputs.cache
+C:\Users\TIPL-User\source\repos\Ex-02\Ex-02\obj\Debug\net5.0\Ex-02.dll
+C:\Users\TIPL-User\source\repos\Ex-02\Ex-02\obj\Debug\net5.0\ref\Ex-02.dll
+C:\Users\TIPL-User\source\repos\Ex-02\Ex-02\obj\Debug\net5.0\Ex-02.pdb
+C:\Users\TIPL-User\source\repos\Ex-02\Ex-02\obj\Debug\net5.0\Ex-02.genruntimeconfig.cache

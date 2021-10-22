@@ -1,0 +1,15 @@
+D:\Milan\Visual Studio C#\Shorting\Shorting\bin\Debug\net5.0\Shorting.exe
+D:\Milan\Visual Studio C#\Shorting\Shorting\bin\Debug\net5.0\Shorting.deps.json
+D:\Milan\Visual Studio C#\Shorting\Shorting\bin\Debug\net5.0\Shorting.runtimeconfig.json
+D:\Milan\Visual Studio C#\Shorting\Shorting\bin\Debug\net5.0\Shorting.runtimeconfig.dev.json
+D:\Milan\Visual Studio C#\Shorting\Shorting\bin\Debug\net5.0\Shorting.dll
+D:\Milan\Visual Studio C#\Shorting\Shorting\bin\Debug\net5.0\ref\Shorting.dll
+D:\Milan\Visual Studio C#\Shorting\Shorting\bin\Debug\net5.0\Shorting.pdb
+D:\Milan\Visual Studio C#\Shorting\Shorting\obj\Debug\net5.0\Shorting.GeneratedMSBuildEditorConfig.editorconfig
+D:\Milan\Visual Studio C#\Shorting\Shorting\obj\Debug\net5.0\Shorting.AssemblyInfoInputs.cache
+D:\Milan\Visual Studio C#\Shorting\Shorting\obj\Debug\net5.0\Shorting.AssemblyInfo.cs
+D:\Milan\Visual Studio C#\Shorting\Shorting\obj\Debug\net5.0\Shorting.csproj.CoreCompileInputs.cache
+D:\Milan\Visual Studio C#\Shorting\Shorting\obj\Debug\net5.0\Shorting.dll
+D:\Milan\Visual Studio C#\Shorting\Shorting\obj\Debug\net5.0\ref\Shorting.dll
+D:\Milan\Visual Studio C#\Shorting\Shorting\obj\Debug\net5.0\Shorting.pdb
+D:\Milan\Visual Studio C#\Shorting\Shorting\obj\Debug\net5.0\Shorting.genruntimeconfig.cache

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="tipltraineeModelStoreContainer" CdmEntityContainer="tipltraineeEntities">
+    <EntitySetMapping Name="Student_Trainee">
+      <EntityTypeMapping TypeName="tipltraineeModel.Student_Trainee">
+        <MappingFragment StoreEntitySet="Student_Trainee">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="dob" ColumnName="dob" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="student_result">
+      <EntityTypeMapping TypeName="tipltraineeModel.student_result">
+        <MappingFragment StoreEntitySet="student_result">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="grade" ColumnName="grade" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="marks" ColumnName="marks" />
+          <ScalarProperty Name="class" ColumnName="class" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

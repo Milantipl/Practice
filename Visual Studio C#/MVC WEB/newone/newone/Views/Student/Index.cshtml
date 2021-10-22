@@ -1,0 +1,66 @@
+﻿@model IEnumerable<newone.Models.Student>
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+ 
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- CSS Includes -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <style type="text/css">
+
+        .field-validation-error {
+            color: #ff0000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Index</h2>
+
+        <p>
+            @Html.ActionLink("Create New", "Create")
+        </p>
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.StudentName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Age)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.StudentName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Age)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.StudentId }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.StudentId }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.StudentId })
+                    </td>
+                </tr>
+            }
+
+        </table>
+     </div>
+</body>
+</html>

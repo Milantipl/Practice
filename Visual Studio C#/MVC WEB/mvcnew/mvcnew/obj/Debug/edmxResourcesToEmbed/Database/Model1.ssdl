@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="tipltraineeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'tipltrainee.trainee.student_result' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="student_result">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="subject" />
+      <PropertyRef Name="marks" />
+      <PropertyRef Name="class" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="grade" Type="char" MaxLength="10" />
+    <Property Name="subject" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="marks" Type="float" Nullable="false" />
+    <Property Name="class" Type="nchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Student_Trainee">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="email" Type="char" MaxLength="10" />
+    <Property Name="gender" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="dob" Type="date" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_student_result_Student_Trainee">
+    <End Role="Student_Trainee" Type="Self.Student_Trainee" Multiplicity="1" />
+    <End Role="student_result" Type="Self.student_result" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student_Trainee">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="student_result">
+        <PropertyRef Name="id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Student_Trainee_Student_Trainee1">
+    <End Role="Student_Trainee" Type="Self.Student_Trainee" Multiplicity="1" />
+    <End Role="Student_Trainee1" Type="Self.Student_Trainee" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Student_Trainee">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Student_Trainee1">
+        <PropertyRef Name="id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="tipltraineeModelStoreContainer">
+    <EntitySet Name="Student_Trainee" EntityType="Self.Student_Trainee" Schema="trainee" store:Type="Tables" />
+    <EntitySet Name="student_result" EntityType="Self.student_result" store:Type="Tables" store:Schema="trainee">
+      <DefiningQuery>SELECT 
+    [student_result].[id] AS [id], 
+    [student_result].[grade] AS [grade], 
+    [student_result].[subject] AS [subject], 
+    [student_result].[marks] AS [marks], 
+    [student_result].[class] AS [class]
+    FROM [trainee].[student_result] AS [student_result]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_student_result_Student_Trainee" Association="Self.FK_student_result_Student_Trainee">
+      <End Role="Student_Trainee" EntitySet="Student_Trainee" />
+      <End Role="student_result" EntitySet="student_result" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Student_Trainee_Student_Trainee1" Association="Self.FK_Student_Trainee_Student_Trainee1">
+      <End Role="Student_Trainee" EntitySet="Student_Trainee" />
+      <End Role="Student_Trainee1" EntitySet="Student_Trainee" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

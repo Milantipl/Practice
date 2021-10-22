@@ -1,0 +1,16 @@
+C:\Users\TIPL-User\source\repos\EX-004\EX-004\obj\Debug\net5.0\EX-004.csproj.AssemblyReference.cache
+C:\Users\TIPL-User\source\repos\EX-004\EX-004\obj\Debug\net5.0\EX-004.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TIPL-User\source\repos\EX-004\EX-004\obj\Debug\net5.0\EX-004.AssemblyInfoInputs.cache
+C:\Users\TIPL-User\source\repos\EX-004\EX-004\obj\Debug\net5.0\EX-004.AssemblyInfo.cs
+C:\Users\TIPL-User\source\repos\EX-004\EX-004\obj\Debug\net5.0\EX-004.csproj.CoreCompileInputs.cache
+C:\Users\TIPL-User\source\repos\EX-004\EX-004\bin\Debug\net5.0\EX-004.exe
+C:\Users\TIPL-User\source\repos\EX-004\EX-004\bin\Debug\net5.0\EX-004.deps.json
+C:\Users\TIPL-User\source\repos\EX-004\EX-004\bin\Debug\net5.0\EX-004.runtimeconfig.json
+C:\Users\TIPL-User\source\repos\EX-004\EX-004\bin\Debug\net5.0\EX-004.runtimeconfig.dev.json
+C:\Users\TIPL-User\source\repos\EX-004\EX-004\bin\Debug\net5.0\EX-004.dll
+C:\Users\TIPL-User\source\repos\EX-004\EX-004\bin\Debug\net5.0\ref\EX-004.dll
+C:\Users\TIPL-User\source\repos\EX-004\EX-004\bin\Debug\net5.0\EX-004.pdb
+C:\Users\TIPL-User\source\repos\EX-004\EX-004\obj\Debug\net5.0\EX-004.dll
+C:\Users\TIPL-User\source\repos\EX-004\EX-004\obj\Debug\net5.0\ref\EX-004.dll
+C:\Users\TIPL-User\source\repos\EX-004\EX-004\obj\Debug\net5.0\EX-004.pdb
+C:\Users\TIPL-User\source\repos\EX-004\EX-004\obj\Debug\net5.0\EX-004.genruntimeconfig.cache

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="tipltraineeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Student_Trainee">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="gender" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="dob" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="student_result" Relationship="Self.FK_student_result_Student_Trainee" FromRole="Student_Trainee" ToRole="student_result" />
+    <NavigationProperty Name="Student_Trainee1" Relationship="Self.FK_Student_Trainee_Student_Trainee1" FromRole="Student_Trainee" ToRole="Student_Trainee1" />
+    <NavigationProperty Name="Student_Trainee2" Relationship="Self.FK_Student_Trainee_Student_Trainee1" FromRole="Student_Trainee1" ToRole="Student_Trainee" />
+  </EntityType>
+  <EntityType Name="student_result">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="subject" />
+      <PropertyRef Name="marks" />
+      <PropertyRef Name="class" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="grade" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="subject" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="marks" Type="Double" Nullable="false" />
+    <Property Name="class" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Student_Trainee" Relationship="Self.FK_student_result_Student_Trainee" FromRole="student_result" ToRole="Student_Trainee" />
+  </EntityType>
+  <Association Name="FK_student_result_Student_Trainee">
+    <End Role="Student_Trainee" Type="Self.Student_Trainee" Multiplicity="1" />
+    <End Role="student_result" Type="Self.student_result" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student_Trainee">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="student_result">
+        <PropertyRef Name="id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Student_Trainee_Student_Trainee1">
+    <End Role="Student_Trainee" Type="Self.Student_Trainee" Multiplicity="1" />
+    <End Role="Student_Trainee1" Type="Self.Student_Trainee" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Student_Trainee">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Student_Trainee1">
+        <PropertyRef Name="id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="tipltraineeEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Student_Trainee" EntityType="Self.Student_Trainee" />
+    <EntitySet Name="student_result" EntityType="Self.student_result" />
+    <AssociationSet Name="FK_student_result_Student_Trainee" Association="Self.FK_student_result_Student_Trainee">
+      <End Role="Student_Trainee" EntitySet="Student_Trainee" />
+      <End Role="student_result" EntitySet="student_result" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Student_Trainee_Student_Trainee1" Association="Self.FK_Student_Trainee_Student_Trainee1">
+      <End Role="Student_Trainee" EntitySet="Student_Trainee" />
+      <End Role="Student_Trainee1" EntitySet="Student_Trainee" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

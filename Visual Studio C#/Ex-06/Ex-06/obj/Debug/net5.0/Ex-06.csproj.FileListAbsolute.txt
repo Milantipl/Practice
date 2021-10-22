@@ -1,0 +1,16 @@
+D:\Milan\Visual Studio C#\Ex-06\Ex-06\bin\Debug\net5.0\Ex-06.exe
+D:\Milan\Visual Studio C#\Ex-06\Ex-06\bin\Debug\net5.0\Ex-06.deps.json
+D:\Milan\Visual Studio C#\Ex-06\Ex-06\bin\Debug\net5.0\Ex-06.runtimeconfig.json
+D:\Milan\Visual Studio C#\Ex-06\Ex-06\bin\Debug\net5.0\Ex-06.runtimeconfig.dev.json
+D:\Milan\Visual Studio C#\Ex-06\Ex-06\bin\Debug\net5.0\Ex-06.dll
+D:\Milan\Visual Studio C#\Ex-06\Ex-06\bin\Debug\net5.0\ref\Ex-06.dll
+D:\Milan\Visual Studio C#\Ex-06\Ex-06\bin\Debug\net5.0\Ex-06.pdb
+D:\Milan\Visual Studio C#\Ex-06\Ex-06\obj\Debug\net5.0\Ex-06.csproj.AssemblyReference.cache
+D:\Milan\Visual Studio C#\Ex-06\Ex-06\obj\Debug\net5.0\Ex-06.GeneratedMSBuildEditorConfig.editorconfig
+D:\Milan\Visual Studio C#\Ex-06\Ex-06\obj\Debug\net5.0\Ex-06.AssemblyInfoInputs.cache
+D:\Milan\Visual Studio C#\Ex-06\Ex-06\obj\Debug\net5.0\Ex-06.AssemblyInfo.cs
+D:\Milan\Visual Studio C#\Ex-06\Ex-06\obj\Debug\net5.0\Ex-06.csproj.CoreCompileInputs.cache
+D:\Milan\Visual Studio C#\Ex-06\Ex-06\obj\Debug\net5.0\Ex-06.dll
+D:\Milan\Visual Studio C#\Ex-06\Ex-06\obj\Debug\net5.0\ref\Ex-06.dll
+D:\Milan\Visual Studio C#\Ex-06\Ex-06\obj\Debug\net5.0\Ex-06.pdb
+D:\Milan\Visual Studio C#\Ex-06\Ex-06\obj\Debug\net5.0\Ex-06.genruntimeconfig.cache

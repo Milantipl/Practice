@@ -1,0 +1,16 @@
+D:\Milan\Visual Studio C#\EX-005\Ex-10\bin\Debug\net5.0\Ex-10.exe
+D:\Milan\Visual Studio C#\EX-005\Ex-10\bin\Debug\net5.0\Ex-10.deps.json
+D:\Milan\Visual Studio C#\EX-005\Ex-10\bin\Debug\net5.0\Ex-10.runtimeconfig.json
+D:\Milan\Visual Studio C#\EX-005\Ex-10\bin\Debug\net5.0\Ex-10.runtimeconfig.dev.json
+D:\Milan\Visual Studio C#\EX-005\Ex-10\bin\Debug\net5.0\Ex-10.dll
+D:\Milan\Visual Studio C#\EX-005\Ex-10\bin\Debug\net5.0\ref\Ex-10.dll
+D:\Milan\Visual Studio C#\EX-005\Ex-10\bin\Debug\net5.0\Ex-10.pdb
+D:\Milan\Visual Studio C#\EX-005\Ex-10\obj\Debug\net5.0\Ex-10.GeneratedMSBuildEditorConfig.editorconfig
+D:\Milan\Visual Studio C#\EX-005\Ex-10\obj\Debug\net5.0\Ex-10.AssemblyInfoInputs.cache
+D:\Milan\Visual Studio C#\EX-005\Ex-10\obj\Debug\net5.0\Ex-10.AssemblyInfo.cs
+D:\Milan\Visual Studio C#\EX-005\Ex-10\obj\Debug\net5.0\Ex-10.csproj.CoreCompileInputs.cache
+D:\Milan\Visual Studio C#\EX-005\Ex-10\obj\Debug\net5.0\Ex-10.dll
+D:\Milan\Visual Studio C#\EX-005\Ex-10\obj\Debug\net5.0\ref\Ex-10.dll
+D:\Milan\Visual Studio C#\EX-005\Ex-10\obj\Debug\net5.0\Ex-10.pdb
+D:\Milan\Visual Studio C#\EX-005\Ex-10\obj\Debug\net5.0\Ex-10.genruntimeconfig.cache
+D:\Milan\Visual Studio C#\EX-005\Ex-10\obj\Debug\net5.0\Ex-10.csproj.AssemblyReference.cache

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="tipltraineeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="City">
+    <Key>
+      <PropertyRef Name="Cityid" />
+    </Key>
+    <Property Name="Cityid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cityname" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Sid" Type="int" Nullable="false" />
+    <Property Name="Pincode" Type="int" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="Cid" />
+    </Key>
+    <Property Name="Cid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cname" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="State">
+    <Key>
+      <PropertyRef Name="Sid" />
+    </Key>
+    <Property Name="Sid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Sname" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Status" Type="int" Nullable="false" />
+    <Property Name="Cid" Type="int" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Name="userID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="50" />
+    <Property Name="LastName" Type="varchar" MaxLength="50" />
+    <Property Name="EmailID" Type="varchar" MaxLength="254" />
+    <Property Name="DateOfBirth" Type="datetime" />
+    <Property Name="Password" Type="nvarchar(max)" />
+    <Property Name="IsEmailVerified" Type="bit" />
+    <Property Name="ActivationCode" Type="uniqueidentifier" />
+    <Property Name="Mobile" Type="varchar" MaxLength="50" />
+    <Property Name="Profile" Type="varchar" MaxLength="50" />
+    <Property Name="Country" Type="varchar" MaxLength="50" />
+    <Property Name="State" Type="varchar" MaxLength="50" />
+    <Property Name="City" Type="varchar" MaxLength="50" />
+    <Property Name="ResetPasswordCode" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="tipltraineeModelStoreContainer">
+    <EntitySet Name="City" EntityType="Self.City" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Country" EntityType="Self.Country" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="State" EntityType="Self.State" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="trainee" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

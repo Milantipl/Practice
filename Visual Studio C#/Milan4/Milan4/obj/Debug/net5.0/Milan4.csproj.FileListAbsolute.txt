@@ -1,0 +1,16 @@
+D:\Milan\Visual Studio C#\Milan4\Milan4\bin\Debug\net5.0\Milan4.exe
+D:\Milan\Visual Studio C#\Milan4\Milan4\bin\Debug\net5.0\Milan4.deps.json
+D:\Milan\Visual Studio C#\Milan4\Milan4\bin\Debug\net5.0\Milan4.runtimeconfig.json
+D:\Milan\Visual Studio C#\Milan4\Milan4\bin\Debug\net5.0\Milan4.runtimeconfig.dev.json
+D:\Milan\Visual Studio C#\Milan4\Milan4\bin\Debug\net5.0\Milan4.dll
+D:\Milan\Visual Studio C#\Milan4\Milan4\bin\Debug\net5.0\ref\Milan4.dll
+D:\Milan\Visual Studio C#\Milan4\Milan4\bin\Debug\net5.0\Milan4.pdb
+D:\Milan\Visual Studio C#\Milan4\Milan4\obj\Debug\net5.0\Milan4.csproj.AssemblyReference.cache
+D:\Milan\Visual Studio C#\Milan4\Milan4\obj\Debug\net5.0\Milan4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Milan\Visual Studio C#\Milan4\Milan4\obj\Debug\net5.0\Milan4.AssemblyInfoInputs.cache
+D:\Milan\Visual Studio C#\Milan4\Milan4\obj\Debug\net5.0\Milan4.AssemblyInfo.cs
+D:\Milan\Visual Studio C#\Milan4\Milan4\obj\Debug\net5.0\Milan4.csproj.CoreCompileInputs.cache
+D:\Milan\Visual Studio C#\Milan4\Milan4\obj\Debug\net5.0\Milan4.dll
+D:\Milan\Visual Studio C#\Milan4\Milan4\obj\Debug\net5.0\ref\Milan4.dll
+D:\Milan\Visual Studio C#\Milan4\Milan4\obj\Debug\net5.0\Milan4.pdb
+D:\Milan\Visual Studio C#\Milan4\Milan4\obj\Debug\net5.0\Milan4.genruntimeconfig.cache

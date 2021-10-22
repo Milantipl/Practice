@@ -1,0 +1,12 @@
+﻿@model Cascading_Mvc.Models.State
+
+<option value="">Select State</option>
+
+@if (ViewBag.Slist != null)
+{
+    foreach(var item in ViewBag.Slist)
+                {
+                    <option value="@item.Value">@item.Text</option>
+                }
+}
+    

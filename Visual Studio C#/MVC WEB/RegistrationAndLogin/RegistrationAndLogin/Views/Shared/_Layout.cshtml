@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+
+    <link rel="icon" href="~/Content/images-2/favicon.ico" type="image/x-icon" />
+    @Styles.Render("~/Content/css-2/bootstrap/bootstrap.min.css")
+    @Styles.Render("~/Content/css-2/font-awesome/all.css")
+   
+    @Styles.Render("~/Content/css-2/owl-carousel/owl.carousel.min.css")
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+
+
+
+
+    <link href="~/Content/css-2/anik.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/css-2/style.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/css-2/media.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<body>
+    @*  <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    </ul>
+                </div>
+            </div>
+        </div>*@
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        @*<footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>*@
+    </div>
+
+
+    <script src="~/Content/js-2/jquery.min.js"></script>
+    <script src="~/Content/js-2/bootstrap/popper.min.js"></script>
+    <script src="~/Content/js-2/bootstrap/bootstrap.min.js"></script>
+    <script src="~/Content/js-2/custom.js"></script>
+    <script src="~/Content/js-2/owl-carousel/owl.carousel.js"></script>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

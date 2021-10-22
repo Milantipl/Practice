@@ -1,0 +1,269 @@
+﻿@model RegistrationAndLogin.Models.User
+
+
+
+@{
+    ViewBag.Title = "Registration";
+}
+
+@if (ViewBag.Status != null && Convert.ToBoolean(ViewBag.Status))
+{
+    if (ViewBag.Message != null)
+    {
+        <div class="alert alert-success">
+            <strong>Success!</strong>@ViewBag.Message
+        </div>
+    }
+}
+else
+{
+    using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <section class="common-section collegebol-predictor-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="cmn-heading">Register</h1>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="register-step-cnt">
+                                <div class="register-steps-area">
+                                    <ul>
+                                        <li class="active"><span>1</span></li>
+                                        <li><span>2</span></li>
+                                        <li><span>3</span></li>
+                                        <li><span>4</span></li>
+                                    </ul>
+                                </div>
+
+                                <div class="register-steps-form ">
+                                    <div class="row mb-0 pb-0">
+
+
+
+                                        <div class="col-md-6">
+                                            <div class="form-row">
+                                                <div class="form-label">
+                                                    @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "control-label col-md-2" })
+                                                </div>
+                                                <div class="form-cnt-area">
+                                                    @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-row">
+                                                <div class="form-label">
+                                                    @Html.LabelFor(model => model.LastName, htmlAttributes: new { @class = "control-label col-md-2" })
+                                                </div>
+                                                <div class="form-cnt-area">
+                                                    @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-row">
+                                                <div class="form-label">
+                                                    @Html.LabelFor(model => model.DateOfBirth, htmlAttributes: new { @class = "control-label col-md-2" })
+                                                </div>
+                                                <div class="form-cnt-area">
+                                                    @Html.EditorFor(model => model.DateOfBirth, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.DateOfBirth, "", new { @class = "text-danger" })
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-row">
+                                                <div class="form-label">
+                                                    @Html.LabelFor(model => model.Country, htmlAttributes: new { @class = "control-label col-md-2" })
+                                                </div>
+                                                <div class="form-cnt-area">
+                                                    @Html.EditorFor(model => model.Country, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.Country, "", new { @class = "text-danger" })
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-row">
+                                                <div class="form-label">
+                                                    @Html.LabelFor(model => model.State, htmlAttributes: new { @class = "control-label col-md-2" })
+                                                </div>
+                                                <div class="form-cnt-area">
+                                                    @Html.EditorFor(model => model.State, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.State, "", new { @class = "text-danger" })
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-row">
+                                                <div class="form-label">
+                                                    @Html.LabelFor(model => model.City, htmlAttributes: new { @class = "control-label col-md-2" })
+                                                </div>
+                                                <div class="form-cnt-area">
+                                                    @Html.EditorFor(model => model.City, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.City, "", new { @class = "text-danger" })
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-row">
+                                                <div class="form-label">
+                                                    @Html.LabelFor(model => model.EmailID, htmlAttributes: new { @class = "control-label col-md-2" })
+                                                </div>
+                                                <div class="form-cnt-area">
+                                                    @Html.EditorFor(model => model.EmailID, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.EmailID, "", new { @class = "text-danger" })
+                                                    @Html.ValidationMessage("EmailExist", new { @class = "text-danger" })
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-row">
+                                                <div class="form-label">
+                                                    @Html.LabelFor(model => model.Mobile, htmlAttributes: new { @class = "control-label col-md-2" })
+                                                </div>
+                                                <div class="form-cnt-area">
+                                                    @Html.EditorFor(model => model.Mobile, new { htmlAttributes = new { @class = "form-control" } })
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-row">
+                                                <div class="form-label">
+                                                    @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+                                                </div>
+                                                <div class="form-cnt-area">
+                                                    @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-row">
+                                                <div class="form-label">
+                                                    @Html.LabelFor(model => model.ConfirmPassword, htmlAttributes: new { @class = "control-label col-md-2" })
+                                                </div>
+                                                <div class="form-cnt-area">
+                                                    @Html.EditorFor(model => model.ConfirmPassword, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        @*<div class="form-group">
+                                                <div class="col-md-offset-2 col-md-10">
+                                                    <input type="submit" value="Register" class="btn btn-default" />
+                                                </div>
+                                            </div>*@
+
+                                        <div class="offset-1 col-md-5">
+                                            <div class="form-row">
+                                                <div class="form-label"></div>
+                                                <div class="row">
+                                                    <div class="form-cnt-area col-md-6">
+                                                        <input type="submit" value="Register" class="cmn-btn" />
+                                                    </div>
+                                                    <div class="form-cnt-area col-md-6">
+                                                        <div class="cmn-btn">
+                                                            @Html.ActionLink("Login", "Login")
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+
+
+        if (ViewBag.Message != null)
+        {
+            <div class="alert alert-danger">
+                <strong>Error!</strong>@ViewBag.Message
+            </div>
+        }
+
+ 
+    }
+}
+
+
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#Cid").change(function () {
+            var countryID = $(this).val();
+            debugger
+            $.ajax({
+                type: "post",
+                url: "/Cas/GetStateList?Cid=" + countryID,
+                contentType: "html",
+                success: function (response) {
+                    debugger
+                    $("#Sid").empty();
+                    $("#Sid").append(response);
+                }
+            })
+        })
+
+        $("#Sid").change(function () {
+            var StateID = $(this).val();
+            debugger
+            $.ajax({
+                type: "post",
+                url: "/Cas/GetCityList?Sid=" + StateID,
+                contentType: "html",
+                success: function (response) {
+                    debugger
+                    $("#Cityid").empty();
+                    $("#Cityid").append(response);
+                }
+            })
+        })
+    })
+</script>
+
+
+@section Scripts{
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+}
+
