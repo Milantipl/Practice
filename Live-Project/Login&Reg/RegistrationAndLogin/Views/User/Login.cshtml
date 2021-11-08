@@ -1,0 +1,120 @@
+﻿@model RegistrationAndLogin.Models.UserLogin
+
+@{ ViewBag.Title = "Login"; }
+
+@using (Html.BeginForm())
+{
+
+@Html.AntiForgeryToken()
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                                <div id="main-container" class="main-container">
+                                    <div id="inner-container" class="inner-container">
+
+                                        <div id="middle">
+                                            <section class="common-section collegebol-predictor-section">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <h1 class="cmn-heading">Welcome to Tathya Infotech, Please Sign In!</h1> <br><br>
+
+                                                        </div>
+
+                                                        <div class="col-md-6">
+                                                            <div class="login-cnt">
+                                                                <div class="login-heading">
+                                                                    <h2><img src="~/Content/images/login-icon.png"> Login <span>If you alreday registered with us. Please Login here.</span></h2>
+                                                                    @ViewBag.message
+                                                                </div>
+
+                                                                <div class="login-form-area">
+                                                                    <div class="form-row">
+                                                                        <div class="form-label">Mobile Number:</div>
+                                                                        <div class="form-cnt-area">
+                                                                            @Html.EditorFor(model => model.EmailID, new { htmlAttributes = new { @class = "" } })
+                                                                            @Html.ValidationMessageFor(model => model.EmailID, "", new { @class = "" })
+                                                                        </div>
+                                                                        <div class="clear"></div>
+                                                                    </div>
+
+                                                                    <div class="form-row">
+                                                                        <div class="form-label">Password:</div>
+                                                                        <div class="form-cnt-area">
+                                                                            @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "" } })
+                                                                            @Html.ValidationMessageFor(model => model.Password, "", new { @class = "" })
+                                                                        </div>
+                                                                        <div class="clear"></div>
+                                                                    </div>
+
+
+                                                                    <div class="form-row">
+                                                                        <div class="form-label"></div>
+                                                                        <div class="form-cnt-area">
+                                                                            <label class="custom-checkbox">
+                                                                                @Html.EditorFor(model => model.RememberMe)
+                                                                                @Html.ValidationMessageFor(model => model.RememberMe, "", new { @class = "" })
+                                                                                <span class="checkmark"></span> Remember Me
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="clear"></div>
+                                                                    </div>
+
+                                                                    <div class="form-row">
+                                                                        <div class="form-label"></div>
+                                                                        <div class="form-cnt-area">
+                                                                            <input type="submit" value="Login" class="cmn-btn"/>
+                                                                            
+                                                                        </div>
+                                                                        <div class="clear"></div>
+                                                                    </div>
+                                                                    <br>
+                                                                    <div class="form-row">
+                                                                        <div class="form-label"></div>
+                                                                        <div class="form-cnt-area">
+                                                                        <a href="#" class="cmn-link">
+                                                                            <strong>@Html.ActionLink("Forgot Password?", "ForgotPassword", "User")</strong></a>
+                                                                        </div>
+                                                                        <div class="clear"></div>
+                                                                    </div>
+
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-6">
+                                                            <div class="signup-cnt">
+                                                                <div class="login-heading">
+                                                                    <h2><img src="~/Content/images/singup-icon.png"> Sign Up <span>New User? Join the Community! </span></h2>
+                                                                </div>
+
+                                                                <div class="register-cnt-area">
+                                                                    <p>Signup & get instant updates on special offers & latest discounts.</p>
+                                                                    <p>Avail welcome perks worth up to 30% discount on your first purchase.</p>
+                                                                    <p>Refer a friend & get surprise rewards.</p>
+
+                                                                    <div class="text-center">
+                                                                    <a class="cmn-btn"@Html.ActionLink("Register Now", "Registration", "User")
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                       
+                                                    </div>
+                                                </div>
+
+
+                                            </section>
+
+
+                                        </div>
+                                    </div>
+
+                                </div>}
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

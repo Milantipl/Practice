@@ -1,0 +1,113 @@
+﻿@using System.Collections
+@using RegistrationAndLogin.Models
+
+@model RegistrationAndLogin.Models.UserM
+
+
+@*@model IEnumerable<RegistrationAndLogin.Models.UserM>*@
+
+@{ ViewBag.Title = "Home Page";
+    @*var Model = (IEnumerable<UserM>)Session["Email"];*@
+   @* @HttpContext.Current.User.Identity.Name*@
+}
+<div class="row">
+    <div class="col-md-12 text-center">
+        <img src="~/Content/images/Tathya logo.png" alt="logo" width="200" />
+    </div>
+    <div class="col-md-12">
+        <h1 class="cmn-heading">Welcome to Tathya Infotech</h1>
+    </div>
+
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+
+
+            <div class="register-steps-form">
+                <h2 class="cmn-blk-hd"></h2>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-row">
+                            <div class="form-label">First Name:</div>
+                            @Html.DisplayFor(model => model.FirstName)
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-row">
+                            <div class="form-label">Last Name:</div>
+                            @Html.DisplayFor(model => model.LastName)
+                            <div class="form-cnt-area">
+
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-row">
+                            <div class="form-label">Mobile Number:</div>
+                            @Html.DisplayFor(model => model.Mobile)
+                            <div class="form-cnt-area">
+
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-row">
+                            <div class="form-label">E-mail Address:</div>
+                            @Html.DisplayFor(model => model.Email)
+                            <div class="form-cnt-area">
+
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <div class="form-row">
+                            <div class="form-label">Current Profile:</div>
+                            @Html.DisplayFor(model => model.Profile)
+                            <div class="form-cnt-area">
+
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-row">
+                            <div class="form-label">Logout Press The Button</div>
+                            <div class="text-center">
+                                <div class="cmn-btn">
+                                     @if (Request.IsAuthenticated)
+                                     { 
+                                         using (Html.BeginForm("Logout", "User", FormMethod.Post, new { id = "logoutForm" })) 
+                                         {
+                                             <a href="javascript:document.getElementById('logoutForm').submit()">Logout</a>
+                                         }
+                                      }
+                                </div>
+                            </div>
+                            
+                            <div class="form-cnt-area">
+
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="tipltraineeModelStoreContainer" CdmEntityContainer="MyModel">
+    <EntitySetMapping Name="UserMs">
+      <EntityTypeMapping TypeName="tipltraineeModel.UserM">
+        <MappingFragment StoreEntitySet="UserM">
+          <ScalarProperty Name="VeryOtp" ColumnName="VeryOtp" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Profile" ColumnName="Profile" />
+          <ScalarProperty Name="EmailVerification" ColumnName="EmailVerification" />
+          <ScalarProperty Name="ActivetionCode" ColumnName="ActivetionCode" />
+          <ScalarProperty Name="OTP" ColumnName="OTP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

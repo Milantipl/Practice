@@ -1,0 +1,194 @@
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\ApplicationInsights.config
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\RegistrationAndLogin.dll.config
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\RegistrationAndLogin.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\RegistrationAndLogin.pdb
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\Antlr3.Runtime.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\EntityFramework.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\EntityFramework.SqlServer.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\Microsoft.AI.DependencyCollector.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\Microsoft.AI.Web.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\Microsoft.AI.WindowsServer.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\Microsoft.ApplicationInsights.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\Microsoft.Web.Infrastructure.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\Newtonsoft.Json.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\System.Web.Helpers.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\System.Web.Mvc.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\System.Web.Optimization.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\System.Web.Razor.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\System.Web.WebPages.Deployment.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\System.Web.WebPages.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\System.Web.WebPages.Razor.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\WebGrease.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\EntityFramework.xml
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\EntityFramework.SqlServer.xml
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\System.Web.Helpers.xml
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\System.Web.Mvc.xml
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\System.Web.Optimization.xml
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\System.Web.Razor.xml
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\System.Web.WebPages.xml
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\System.Web.WebPages.Deployment.xml
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\System.Web.WebPages.Razor.xml
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\Newtonsoft.Json.xml
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\Antlr3.Runtime.pdb
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\Microsoft.AI.DependencyCollector.xml
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\Microsoft.AI.WindowsServer.xml
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\Microsoft.AI.Web.xml
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\obj\Debug\RegistrationAndLogin.csproj.CoreCompileInputs.cache
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\obj\Debug\RegistrationAndLogin.csproj.CopyComplete
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\obj\Debug\RegistrationAndLogin.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\obj\Debug\RegistrationAndLogin.pdb
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\csc.exe
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\csc.exe.config
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\csc.rsp
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\csi.exe
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\csi.exe.config
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\csi.rsp
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.AppContext.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.Collections.Immutable.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.Console.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.Diagnostics.Process.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.IO.Compression.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.IO.FileSystem.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.IO.Pipes.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.Reflection.Metadata.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.Security.AccessControl.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.Security.Claims.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.Threading.Thread.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.ValueTuple.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.Xml.XPath.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\vbc.exe
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\vbc.exe.config
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\vbc.rsp
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\VBCSCompiler.exe
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\bin\roslyn\VBCSCompiler.exe.config
+D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\RegistrationAndLogin-master\RegistrationAndLogin\obj\Debug\RegistrationAndLogin.csproj.AssemblyReference.cache
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\ApplicationInsights.config
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\RegistrationAndLogin.dll.config
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\RegistrationAndLogin.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\RegistrationAndLogin.pdb
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\csc.exe
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\csc.exe.config
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\csc.rsp
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\csi.exe
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\csi.exe.config
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\csi.rsp
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.AppContext.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.Collections.Immutable.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.Console.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.Diagnostics.Process.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.IO.Compression.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.IO.FileSystem.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.IO.Pipes.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.Reflection.Metadata.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.Security.AccessControl.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.Security.Claims.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.Threading.Thread.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.ValueTuple.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.Xml.XPath.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\vbc.exe
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\vbc.exe.config
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\vbc.rsp
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\VBCSCompiler.exe
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\roslyn\VBCSCompiler.exe.config
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\Antlr3.Runtime.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\EntityFramework.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\EntityFramework.SqlServer.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\Microsoft.AI.DependencyCollector.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\Microsoft.AI.Web.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\Microsoft.AI.WindowsServer.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\Microsoft.ApplicationInsights.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\Microsoft.Web.Infrastructure.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\Newtonsoft.Json.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\System.Web.Helpers.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\System.Web.Mvc.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\System.Web.Optimization.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\System.Web.Razor.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\System.Web.WebPages.Deployment.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\System.Web.WebPages.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\System.Web.WebPages.Razor.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\WebGrease.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\EntityFramework.xml
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\EntityFramework.SqlServer.xml
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\System.Web.Helpers.xml
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\System.Web.Mvc.xml
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\System.Web.Optimization.xml
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\System.Web.Razor.xml
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\System.Web.WebPages.xml
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\System.Web.WebPages.Deployment.xml
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\System.Web.WebPages.Razor.xml
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\Newtonsoft.Json.xml
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\Antlr3.Runtime.pdb
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\Microsoft.AI.DependencyCollector.xml
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\Microsoft.AI.WindowsServer.xml
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\Microsoft.AI.Web.xml
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\obj\Debug\RegistrationAndLogin.csproj.AssemblyReference.cache
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\obj\Debug\RegistrationAndLogin.csproj.CoreCompileInputs.cache
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\obj\Debug\RegistrationAndLogin.csproj.CopyComplete
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\obj\Debug\RegistrationAndLogin.dll
+D:\Milan\Demo-Project\wp\RegistrationAndLogin-master2\RegistrationAndLogin\obj\Debug\RegistrationAndLogin.pdb

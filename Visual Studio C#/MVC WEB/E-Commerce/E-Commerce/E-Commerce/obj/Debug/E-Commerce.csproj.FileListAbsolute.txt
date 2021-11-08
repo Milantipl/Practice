@@ -81,3 +81,7 @@ D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\E-Commerce\E-Commerce\obj\Debug\E-C
 D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\E-Commerce\E-Commerce\obj\Debug\E-Commerce.csproj.CopyComplete
 D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\E-Commerce\E-Commerce\obj\Debug\E-Commerce.dll
 D:\Milan\Visual Studio C#\MVC WEB\E-Commerce\E-Commerce\E-Commerce\obj\Debug\E-Commerce.pdb
+D:\GitHub\Practice\Visual Studio C#\MVC WEB\E-Commerce\E-Commerce\E-Commerce\obj\Debug\E-Commerce.csproj.AssemblyReference.cache
+D:\GitHub\Practice\Visual Studio C#\MVC WEB\E-Commerce\E-Commerce\E-Commerce\obj\Debug\E-Commerce.csproj.CoreCompileInputs.cache
+D:\GitHub\Practice\Visual Studio C#\MVC WEB\E-Commerce\E-Commerce\E-Commerce\obj\Debug\E-Commerce.dll
+D:\GitHub\Practice\Visual Studio C#\MVC WEB\E-Commerce\E-Commerce\E-Commerce\obj\Debug\E-Commerce.pdb
